@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteRule ^MyHome?$ index.php
+RewriteRule ^MyCart?$ cart.php
+RewriteRule ^MyContact?$ contact.php
+RewriteRule ^AddCart?$ add_cart.php
+RewriteRule ^Minus?$ add_minus.php
+RewriteRule ^Out?$ logout.php
+RewriteRule ^Address?$ delivery_address.php
